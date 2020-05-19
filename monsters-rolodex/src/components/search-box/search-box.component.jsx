@@ -4,8 +4,11 @@ import './search-box.styles.css';
 export const SearchBox = ({ placeholder, handleChange}) => {
 
   return (
-    <input className="search" type="search" placeholder={placeholder}
-      onChange={handleChange}
-    />
+    <div><i className="mag-glass fas fa-search fa-2x"> </i>
+      <input className="search" type="search" placeholder={placeholder}
+        onChange={handleChange}
+      />
+    </div>
+
   )
 }

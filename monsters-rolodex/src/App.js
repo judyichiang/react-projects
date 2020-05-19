@@ -34,9 +34,8 @@ export default class App extends Component {
     return (
       <div className="App">
       <h1>Monster's Rolodex</h1>
-
         <SearchBox
-          placeholder='search monsters'
+          placeholder=' Search..'
           handleChange={this.handleChange}
         // handleChange={e => {
         //   this.setState({ searchField: e.target.value }, () => console.log(this.state))
